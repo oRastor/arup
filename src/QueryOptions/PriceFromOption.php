@@ -2,12 +2,7 @@
 
 namespace AutoGrabber\QueryOptions;
 
-/**
- * Description of PriceFrom
- *
- * @author root
- */
-class PriceFrom extends AbstractOption
+class PriceFromOption extends AbstractOption
 {
 
     protected $type = self::TYPE_INT;

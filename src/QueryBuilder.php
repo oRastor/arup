@@ -23,7 +23,7 @@ class QueryBuilder
 
     public function setPriceFrom($value)
     {
-        $priceFrom = new QueryOptions\PriceFrom($value);
+        $priceFrom = new QueryOptions\PriceFromOption($value);
         $this->addOption($priceFrom);
         
         return $this;
@@ -31,7 +31,7 @@ class QueryBuilder
 
     public function setPriceTo($value)
     {
-        $priceTo = new QueryOptions\PriceTo($value);
+        $priceTo = new QueryOptions\PriceToOption($value);
         $this->addOption($priceTo);
         
         return $this;

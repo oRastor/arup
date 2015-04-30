@@ -2,12 +2,7 @@
 
 namespace AutoGrabber\QueryOptions;
 
-/**
- * Description of Gearbox
- *
- * @author root
- */
-class Gearbox extends AbstractOption
+class CategoryOption extends AbstractOption
 {
 
     const ALL_AUTOMATIC = -1;
